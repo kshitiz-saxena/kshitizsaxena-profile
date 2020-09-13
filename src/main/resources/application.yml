@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://profile-app:OWr1jlUa2UqaersV@profile-mumbai.vdb3x.mongodb.net/profile

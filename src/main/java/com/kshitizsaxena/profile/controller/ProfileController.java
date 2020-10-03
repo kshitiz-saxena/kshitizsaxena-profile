@@ -16,7 +16,6 @@ public class ProfileController {
 
     @GetMapping("/profiles/{userId}")
     public Mono<Profile> getProfileByUserId(@PathVariable String userId) {
-        System.out.println(userId);
         return profileRepository.findByUserId(userId);
     }
 }
